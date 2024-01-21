@@ -15,8 +15,7 @@ ShootSystem = {
 				local cameraTransform = entity:get_component(Transform)
 
 				if Input.isMouseButtonPressed(MouseButton.Left) then
-					local projectilePrefab = Prefab("TNTProjectilePrefab")
-                    local projectile = projectilePrefab:instantiate(SceneManager:getActiveScene())
+                    local projectile = Prefab("TNTProjectilePrefab"):instantiate(SceneManager:getActiveScene())
 
                     -- TODO: ADD MUZZLE SOCKET
                     local projectileTransform = projectile:get_component(Transform)
@@ -29,7 +28,6 @@ ShootSystem = {
 					scriptsContainer.Projectile.lifetime = 3
 					scriptsContainer.Projectile.timer = 0
 
-                    -- TODO: NEED TO FIX INITIALIZATION SYSTEM
                     local projectileRigidbody = projectile:get_component(Rigidbody)
                     projectileRigidbody:initialize(projectile)
                     projectileRigidbody:addForce(scriptsContainer.Projectile.speed * cameraTransform:getForwardDirection(), ForceMode.Impulse)

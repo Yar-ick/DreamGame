@@ -1,7 +1,7 @@
 Prefab: TNTProjectile
-RootEntity: 4085258559053820140
+RootEntity: 4955442229211746126
 Entities:
-  - Entity: 4085258559053820140
+  - Entity: 4955442229211746126
     Tag: TNTProjectile
     Transform:
       Position: [0.315220833, 4.53342819, -21.9363613]
@@ -36,12 +36,12 @@ Entities:
       Bounce Combine Mode: 0
     Audio Source:
       AudioBank: 14989559363316027723
-      AudioEventName: ""
-      PlayOnInit: false
+      AudioEventName: TNTFuse
+      PlayOnInit: true
       IsOneShot: false
-  - Entity: 16015083229585495455
+  - Entity: 15505172275529349744
     Tag: TNT
-    Parent: 4085258559053820140
+    Parent: 4955442229211746126
     Transform:
       Position: [0, 0.115888596, 0]
       Rotation: [-0, 0, 0]
