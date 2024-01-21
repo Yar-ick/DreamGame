@@ -1,0 +1,1157 @@
+Scene: TestScene
+Entities:
+  - Entity: 8156928936795239914
+    Tag: FirstRoomWall3
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-148.712753, 7.79433012, -82.5874252]
+      Rotation: [0, -0.986409605, 0]
+      Scale: [2.34613585, 1, 0.99999994]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [10.8999996, 6.80000019, 0.5]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 3153478711592148725
+    Tag: FirstRoomWall2
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-111.827347, 7.79417515, -55.9601097]
+      Rotation: [0, -0.230869323, 0]
+      Scale: [0.843551517, 1, 0.999998868]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [31.7999992, 6.80000019, 0.5]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 4869633998228424559
+    Tag: FirstRoomWall
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-63.1329308, 7.7942481, -51.606163]
+      Rotation: [-0, 0.0640804023, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [25, 6.80000019, 0.5]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 3815315531378824285
+    Tag: FirstRoomWalls
+    Parent: 2909946949301208209
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [-0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 10196122610774884387
+    Tag: StartWalls
+    Parent: 2909946949301208209
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [-0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 15985146180155772621
+    Tag: StartWall5
+    Parent: 10196122610774884387
+    Transform:
+      Position: [-24.8821087, 7.79429054, -39.6479034]
+      Rotation: [0, -0.784000754, 0]
+      Scale: [0.99999994, 1, 0.99999994]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [19.3999996, 6.80000019, 0.5]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 7137769914125731713
+    Tag: StartWall4
+    Parent: 10196122610774884387
+    Transform:
+      Position: [-5.26677418, 7.79429483, -39.9337807]
+      Rotation: [0, -0.833117962, 0]
+      Scale: [1, 1, 1]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [43.4000015, 6.80000019, 0.5]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 12646183665219460822
+    Tag: StartWall3
+    Parent: 10196122610774884387
+    Transform:
+      Position: [19.4312649, 7.79429865, -4.34193993]
+      Rotation: [-0, 0.786570609, 0]
+      Scale: [0.999999881, 1, 0.999999881]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [7.4000001, 6.80000019, 0.5]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 11187121928274211464
+    Tag: StartWall2
+    Parent: 10196122610774884387
+    Transform:
+      Position: [-9.34682274, 7.79429674, -11.3414221]
+      Rotation: [0, -1.42477071, 0]
+      Scale: [0.999979973, 1, 0.999979973]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [14.8000002, 6.80000019, 0.5]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 14093435918641484115
+    Tag: StartWall
+    Parent: 10196122610774884387
+    Transform:
+      Position: [3.75873494, 7.79429579, 1.26692486]
+      Rotation: [-0, 0.0640803948, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [10.8999996, 6.80000019, 0.5]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 2909946949301208209
+    Tag: Walls
+    Parent: 8915648544011612886
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [-0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 10866865871938745023
+    Tag: DynamicObjects
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [-0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 8915648544011612886
+    Tag: Colliders
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [-0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 665289726312897316
+    Tag: Ramp
+    Parent: 14671397981748220255
+    Transform:
+      Position: [40.7741203, 9.28649807, -307.980499]
+      Rotation: [0.320005834, 0.175928965, -0.0420261621]
+      Scale: [0.999999106, 0.999999404, 0.999999642]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [13.1000004, 1, 35.5]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 4696257675534947107
+    Tag: Ramp
+    Parent: 14671397981748220255
+    Transform:
+      Position: [39.6889267, 23.7769413, -364.583221]
+      Rotation: [0.166682377, -0.0238843486, 0.0162007399]
+      Scale: [0.999990463, 1, 0.999988675]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [18.3999996, 1, 26.7999992]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 8634262223255032121
+    Tag: Floor
+    Parent: 14671397981748220255
+    Transform:
+      Position: [-145.248657, 26.4733143, -413.369049]
+      Rotation: [0.0373975113, 0.284770072, 0.0379523672]
+      Scale: [0.999998033, 0.99997896, 0.999997735]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [37, 0.5, 20.7000008]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 16667562186959629374
+    Tag: FirstRoomSphereWall
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-37.854538, 7.79424763, -129.807755]
+      Rotation: [-0, 0.0640804023, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 0
+      Sphere Radius: 29.5
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 4152199229575565560
+    Tag: FirstRoomSphereWall3
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-108.881584, -1.81065321, -110.249535]
+      Rotation: [-0, 0.0640803948, 0]
+      Scale: [0.619999647, 0.620000005, 0.619999647]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 0
+      Sphere Radius: 10.8999996
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 18248931055692955122
+    Tag: SpotLight
+    Parent: 6442536384003582315
+    Transform:
+      Position: [14.3904839, 14.9357433, -8.88151073]
+      Rotation: [-0.720606327, -0.549428582, -2.87914896]
+      Scale: [0.999968171, 0.999939978, 0.999969959]
+    Spot Light:
+      Color: [0, 1, 0.923728704, 1]
+      Range: 26.3999996
+      Angle: 19.7999992
+      Smoothness: 0.75
+      Intensity: 15.1000004
+  - Entity: 6442536384003582315
+    Tag: Lights
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [-0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 9352633774523005039
+    Tag: RedLight
+    Parent: 6442536384003582315
+    Transform:
+      Position: [18.8175049, 5.8570466, -8.48316956]
+      Rotation: [-0, 0, 0]
+      Scale: [1, 1, 1]
+    Point Light:
+      Color: [1, 0, 0, 1]
+      Range: 10
+      Smoothness: 0.75
+      Intensity: 10
+  - Entity: 15494412535831011401
+    Tag: Particles
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [-0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 3035672217047654311
+    Tag: MainFloor
+    Parent: 14671397981748220255
+    Transform:
+      Position: [1.96304131, 1, -745.299805]
+      Rotation: [-0, 0, 0]
+      Scale: [500, 1, 500]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [0.800000012, 0.00999999978, 1.60000002]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 13631027794021233931
+    Tag: Environment
+    Transform:
+      Position: [0, 0, 2.37524009]
+      Rotation: [-0, 0, 0]
+      Scale: [1, 1, 1]
+    Skybox Renderer:
+      Skybox: 16098248729693485061
+  - Entity: 8491558712521098324
+    Tag: Terrain
+    Parent: 13631027794021233931
+    Transform:
+      Position: [5.36340618, 4.62176037, -16.3083382]
+      Rotation: [-0, 0, 0]
+      Scale: [0.0250000004, 0.0250000004, 0.0250000004]
+    MeshRenderer:
+      Mesh: 15134590534525850135
+      Material: 12619200289016113316
+      Cast Shadow: true
+  - Entity: 14671397981748220255
+    Tag: Floors
+    Parent: 8915648544011612886
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [-0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 15392721754015773208
+    Tag: Directional Light
+    Parent: 6442536384003582315
+    Transform:
+      Position: [-4.61883545, 11.7034178, -2.41830444]
+      Rotation: [-0.856941223, 0.396592051, -0.0144940307]
+      Scale: [0.999945223, 0.999967039, 0.999983191]
+    Directional Light:
+      Color: [1, 1, 1, 1]
+  - Entity: 5124585676315109175
+    Tag: PlayerStart
+    Transform:
+      Position: [-99.0196686, 5.72386551, -208.909821]
+      Rotation: [-1.54461598, 7.15127101e-07, 7.15127101e-07]
+      Scale: [1, 0.999999762, 0.999999762]
+    ScriptsContainer:
+      ScriptsContainer:
+        ScriptAssets:
+          - ScriptAssetUUID: 7725045295318789035
+  - Entity: 14066215775737980894
+    Tag: FirstRoomSphereWall3
+    Parent: 7213866317172789411
+    Transform:
+      Position: [7.01245403, 7.79418707, -263.696869]
+      Rotation: [-0, 0.0640803948, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 0
+      Sphere Radius: 40
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 1596175395245477914
+    Tag: FirstRoomSphereWall2
+    Parent: 7213866317172789411
+    Transform:
+      Position: [-38.7834396, 7.7942462, -270.88028]
+      Rotation: [-0, 0.0640803948, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 0
+      Sphere Radius: 10.8999996
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 7840376918062693499
+    Tag: Floor
+    Parent: 14671397981748220255
+    Transform:
+      Position: [-45.2341766, 27.6608963, -409.893005]
+      Rotation: [0, -0.141089618, 0]
+      Scale: [1, 1, 1]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [77.0999985, 0.5, 17.2999992]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 9391745186084233554
+    Tag: Ramp2.1
+    Parent: 14671397981748220255
+    Transform:
+      Position: [-122.482895, 7.32850981, -319.481995]
+      Rotation: [2.98023259e-08, -0.764466166, -0.313613832]
+      Scale: [1, 1, 0.999999881]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [24.2999992, 0.5, 17.2999992]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 17739418442643723717
+    Tag: Ramp2.2
+    Parent: 14671397981748220255
+    Transform:
+      Position: [-147.026321, 19.8965359, -364.410767]
+      Rotation: [-0.0011561889, -1.16418421, -0.179229602]
+      Scale: [0.999999225, 0.999999762, 0.999998868]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [28.7000008, 0.5, 17.2999992]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 13603676093933365541
+    Tag: FirstRoomWall5
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-203.627213, 7.7942934, -136.011246]
+      Rotation: [-0, 0.0640803948, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 0
+      Sphere Radius: 23.1000004
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 5086010650379642645
+    Tag: FirstRoomWall6
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-216.008743, 7.79429054, -178.069504]
+      Rotation: [-0, 0.0640803948, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 0
+      Sphere Radius: 23.1000004
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 10756071499951733733
+    Tag: FirstRoomWall7
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-185.507248, 7.79429054, -207.441345]
+      Rotation: [-0, 0.0640803948, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 0
+      Sphere Radius: 23.1000004
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 6723023695872297075
+    Tag: FirstRoomWall8
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-126.35141, 7.7942481, -161.703293]
+      Rotation: [-0, 0.867380142, 0]
+      Scale: [0.999998868, 1, 0.999998868]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 1
+      Capsule Radius: 26.7999992
+      Capsule Half Height: 9.60000038
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 2231315711147948694
+    Tag: FirstRoomWall9
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-142.481339, 7.79424858, -177.955215]
+      Rotation: [-0, 0.0640803948, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 0
+      Sphere Radius: 13.1000004
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 9934155117148796783
+    Tag: FirstRoomWall10
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-152.480362, 7.79424715, -197.75325]
+      Rotation: [-0, 0.0640803948, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [20.7000008, 6.80000019, 0.5]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 3627034265075003938
+    Tag: FirstRoomWall11
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-104.933647, 7.79418373, -226.759232]
+      Rotation: [-0, 0.808459342, 0]
+      Scale: [3.53683162, 1, 0.99999994]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [10.8999996, 6.80000019, 0.5]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 1942937130112603519
+    Tag: FirstRoomWall12
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-32.9148788, 7.79424763, -84.0164337]
+      Rotation: [-0, 0.0640803948, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 0
+      Sphere Radius: 17.2000008
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 7213866317172789411
+    Tag: FirstTunnelWalls
+    Parent: 2909946949301208209
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [-0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 14162840944036159035
+    Tag: FirstTunnelSphereWall
+    Parent: 7213866317172789411
+    Transform:
+      Position: [-79.5480042, 7.79418421, -266.977203]
+      Rotation: [-0, 0.0640803948, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 0
+      Sphere Radius: 18.6000004
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 1646787273009842341
+    Tag: FirstRoomSphereWall2
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-61.0155487, 7.7942481, -208.576752]
+      Rotation: [-0, 0.0640804023, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 0
+      Sphere Radius: 31.7999992
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 14241513857047522877
+    Tag: FirstRoomWall4
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-175.064423, 7.79429722, -114.361603]
+      Rotation: [-0, 0.0640804023, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 0
+      Sphere Radius: 23.1000004
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+  - Entity: 1320183915510635243
+    Tag: FirstRoomSphereWall4
+    Parent: 3815315531378824285
+    Transform:
+      Position: [-44.2800217, 7.79424763, -168.937271]
+      Rotation: [-0, 0.0640804023, 0]
+      Scale: [0.999999464, 1, 0.999999464]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 0
+      Sphere Radius: 17.5
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+Systems:
+  - System: 7522258865418468204
+  - System: 4286742986091037320
+  - System: 12364856122512646631
+  - System: 14623761520668869565
+  - System: 4340022513561837824
+  - System: 15747099389357838684
+  - System: 10507411060376272809
+  - System: 15540854225115538474

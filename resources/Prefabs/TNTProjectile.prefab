@@ -1,0 +1,75 @@
+Prefab: TNTProjectile
+RootEntity: 4085258559053820140
+Entities:
+  - Entity: 4085258559053820140
+    Tag: TNTProjectile
+    Transform:
+      Position: [0.315220833, 4.53342819, -21.9363613]
+      Rotation: [-0, 0, 0]
+      Scale: [1, 1, 1]
+    Rigidbody:
+      Layer: 0
+      Rigidbody Type: 1
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 5
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 5
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 1
+      Capsule Radius: 0.0500000007
+      Capsule Half Height: 0.349999994
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 90]
+      Dynamic Friction: 0.600000024
+      Static Friction: 0.600000024
+      Bounciness: 0.100000001
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+    Audio Source:
+      AudioBank: 14989559363316027723
+      AudioEventName: ""
+      PlayOnInit: false
+      IsOneShot: false
+  - Entity: 16015083229585495455
+    Tag: TNT
+    Parent: 4085258559053820140
+    Transform:
+      Position: [0, 0.115888596, 0]
+      Rotation: [-0, 0, 0]
+      Scale: [0.00499999989, 0.00499999989, 0.00499999989]
+    Emitter:
+      Birth:
+        RandomVelocity: false
+        Velocity: [0, 0, 0]
+        VelocityB: [0, 0, 0]
+        RandomStartPosition: false
+        Position: [0, 0.699999988, 0]
+        PositionB: [0, 0, 0]
+        RandomStartColor: false
+        StartColor: [1, 1, 1, 1]
+        StartColorB: [1, 1, 1, 1]
+        EndColor: [1, 1, 1, 1]
+        RandomStartSize: false
+        StartSize: 0.5
+        StartSizeB: 1
+        EndSize: 0.100000001
+        RandomStartLifeTime: false
+        LifeTime: 1
+        LifeTimeB: 1
+        GravityScale: 0
+      Texture: 5616218859869086599
+      MaxParticles: 10000
+      Rate: 10
+    MeshRenderer:
+      Mesh: 11648913869256549051
+      Material: 9843459032645421688
+      Cast Shadow: true

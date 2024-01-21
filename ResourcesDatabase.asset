@@ -1,0 +1,23 @@
+Assets:
+  - UUID: 10320704494744571786
+    Address: CubePrefab
+  - UUID: 8564062042898644639
+    Address: EnemyPrefab
+  - UUID: 12923922670278676373
+    Address: ExplosionParticlePrefab
+  - UUID: 3557023764327941504
+    Address: PrefabPlayer
+  - UUID: 9795598983804961518
+    Address: ProjectilePrefab
+  - UUID: 17298535215741968510
+    Address: SwordPrefab
+  - UUID: 5770901712169544057
+    Address: TNTPrefab
+  - UUID: 14783878438081457535
+    Address: TNTProjectilePref
+  - UUID: 6074525919818899122
+    Address: TNTProjectilePrefab
+  - UUID: 15224226662673743579
+    Address: TNTProjectilePrefab1
+  - UUID: 4154421959612905417
+    Address: TNTProjectilePrefab2

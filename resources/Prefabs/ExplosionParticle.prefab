@@ -1,0 +1,32 @@
+Prefab: ExplosionParticle
+RootEntity: 5594134774180760219
+Entities:
+  - Entity: 5594134774180760219
+    Tag: ExplosionParticle
+    Transform:
+      Position: [-0.984754801, 2.4667232, -6.30192137]
+      Rotation: [-0, 0, 0]
+      Scale: [1, 1, 1]
+    Emitter:
+      Birth:
+        RandomVelocity: false
+        Velocity: [0, 1, 0]
+        VelocityB: [0, 0, 0]
+        RandomStartPosition: true
+        Position: [0, 0, 0]
+        PositionB: [1.10000002, 3, 5.4000001]
+        RandomStartColor: false
+        StartColor: [1, 1, 1, 1]
+        StartColorB: [1, 1, 1, 1]
+        EndColor: [1, 1, 1, 1]
+        RandomStartSize: false
+        StartSize: 1
+        StartSizeB: 1
+        EndSize: 10
+        RandomStartLifeTime: false
+        LifeTime: 5
+        LifeTimeB: 1
+        GravityScale: 0
+      Texture: 5616218859869086599
+      MaxParticles: 10000
+      Rate: 5
