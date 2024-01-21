@@ -40,6 +40,6 @@ PlayerSpawnSystem = {
 
 		local scriptsContainer = playerEntity:get_or_add_component(ScriptsContainer)
 		
-		scriptsContainer.Player = Player(15.0)
+		scriptsContainer.Player = Player(15.0, false)
 	end
 }

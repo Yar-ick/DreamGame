@@ -7,8 +7,9 @@ setmetatable(Player, {
     end
 })
 
-function Player.new(speed)
+function Player.new(speed, hasDynamite)
     local self = setmetatable({}, Player)
     self.speed = speed or 0.0
+    self.hasDynamite = hasDynamite or false
     return self
 end

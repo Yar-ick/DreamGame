@@ -3,6 +3,8 @@
 ShootSystem = {
 	update = function(deltaTime)
 		local cameraView = Registry.get_entities(Transform, CameraComponent)
+		local playerView = Registry.get_entities(Transform, CharacterController, ScriptsContainer)
+		local playerHasDynamite = false
 
 		cameraView:for_each(
 			function(entity)
@@ -13,6 +15,20 @@ ShootSystem = {
 				end
 
 				local cameraTransform = entity:get_component(Transform)
+
+				playerView:for_each(
+					function (playerEntity)
+						if playerEntity:get_component(ScriptsContainer).Player == nil then
+							return
+						end
+						
+						playerHasDynamite = playerEntity:get_component(ScriptsContainer).Player.hasDynamite
+					end
+				)
+
+				if playerHasDynamite == false then
+					return
+				end
 
 				if Input.isMouseButtonPressed(MouseButton.Left) then
                     local projectile = Prefab("TNTProjectilePrefab"):instantiate(SceneManager:getActiveScene())
@@ -31,8 +47,6 @@ ShootSystem = {
                     local projectileRigidbody = projectile:get_component(Rigidbody)
                     projectileRigidbody:initialize(projectile)
                     projectileRigidbody:addForce(scriptsContainer.Projectile.speed * cameraTransform:getForwardDirection(), ForceMode.Impulse)
-                    
-                    -- Audio.playOneShot("event:/Shot", projectile)
 				end
 			end
 		)

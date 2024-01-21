@@ -12,8 +12,6 @@ CollisionHandleSystem = {
 					return
 				end
 
-				
-
 				local projectileTransform = entity:get_component(Transform)
 				local projectileRigidbody = entity:get_component(Rigidbody)
 				local projectile = scriptsContainer.Projectile
@@ -26,10 +24,10 @@ CollisionHandleSystem = {
 				for k,v in ipairs(collisions) do
 					if v.contactEntity:has_component(ScriptsContainer) then
 						
-						--print(v.contactEntity:name())
+						print(v.contactEntity:name())
 						scriptsContainer = v.contactEntity:get_component(ScriptsContainer)
 						
-						if scriptsContainer.Enemy ~= nill then
+						if scriptsContainer.Enemy ~= nil then
 							scene:destroyEntity(v.contactEntity)
 							scene:destroyEntity(entity)
 						end
