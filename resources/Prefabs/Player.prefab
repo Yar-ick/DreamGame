@@ -1,7 +1,7 @@
 Prefab: Player
-RootEntity: 10718454664239101245
+RootEntity: 13776055780130502424
 Entities:
-  - Entity: 10718454664239101245
+  - Entity: 13776055780130502424
     Tag: Player
     Transform:
       Position: [6.10351562e-05, 6.17268944, -7.25501537]
@@ -23,13 +23,18 @@ Entities:
       Bounciness: 0
       Friction Combine Mode: 0
       Bounce Combine Mode: 0
-  - Entity: 6083226536014881736
+  - Entity: 15777062280664009976
     Tag: Head
-    Parent: 10718454664239101245
+    Parent: 13776055780130502424
     Transform:
       Position: [0, 3.77412462, -0.347376943]
       Rotation: [-0, 0, 0]
       Scale: [1, 1, 1]
+    Audio Source:
+      AudioBank: 16638174034715677618
+      AudioEventName: StoneStep
+      PlayOnInit: false
+      IsOneShot: false
     Camera:
       Camera:
         ProjectionType: 0
@@ -43,12 +48,12 @@ Entities:
       FixedAspectRatio: false
     AudioListener:
       {}
-  - Entity: 1882511221982697821
+  - Entity: 10740357347768846524
     Tag: Weapon
-    Parent: 6083226536014881736
+    Parent: 15777062280664009976
     Transform:
       Position: [0, -1.54227829, 0.339908123]
-      Rotation: [0, 0, 0]
+      Rotation: [-0, 0, 0]
       Scale: [0.00525000552, 0.00525000552, 0.00525000552]
     MeshRenderer:
       Mesh: 11648913869256549051

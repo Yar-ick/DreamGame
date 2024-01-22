@@ -13,6 +13,23 @@ Collectables = {
 
 				local collectablePosition = collectableEntity:get_component(Transform):getWorldPosition()
 
+				-- Collectable floating animation
+				local collectableLocalPosition = collectableEntity:get_component(Transform):getLocalPosition()
+
+				if scriptsContainer.CollectableTNT.animationUpDirection == true then
+					collectableEntity:get_component(Transform):setLocalPosition(collectableLocalPosition + Vector3(0.0, 0.1, 0.0))
+				elseif scriptsContainer.CollectableTNT.animationUpDirection == false then
+					collectableEntity:get_component(Transform):setLocalPosition(collectableLocalPosition + Vector3(0.0, -0.1, 0.0))
+				end
+
+				if collectableLocalPosition.y > 5.0 then
+					scriptsContainer.CollectableTNT.animationUpDirection = false
+				elseif collectableLocalPosition.y < 2.5 then
+					scriptsContainer.CollectableTNT.animationUpDirection = true
+				end
+				
+
+
 				collectablesView:for_each(
 					function(playerEntity)
 						if playerEntity:get_component(ScriptsContainer).Player == nil then

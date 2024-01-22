@@ -583,7 +583,7 @@ Entities:
     Parent: 14671397981748220255
     Transform:
       Position: [39.6889267, 23.7769413, -364.583221]
-      Rotation: [0.166685253, -0.0238844417, 0.0162009485]
+      Rotation: [0.166685566, -0.0238844696, 0.0162009522]
       Scale: [0.999990463, 1, 0.999988675]
     Rigidbody:
       Layer: 0
@@ -947,7 +947,7 @@ Entities:
     Transform:
       Position: [0, 0.116046429, 0]
       Rotation: [-0, 0, 0]
-      Scale: [0.00999999978, 0.00999999978, 0.00999999978]
+      Scale: [0.00999999512, 0.00999999978, 0.00999999512]
     Point Light:
       Color: [0.042372942, 1, 0, 1]
       Range: 7.4000001
@@ -960,9 +960,9 @@ Entities:
   - Entity: 5460401966510546738
     Tag: TNTCollectable
     Transform:
-      Position: [-103.526245, 4.53342104, -207.863785]
-      Rotation: [-0, 0, -0]
-      Scale: [1, 1, 1]
+      Position: [-103.526245, 4.5, -207.863785]
+      Rotation: [-0, 0, 0]
+      Scale: [0.999998868, 1, 0.999998868]
     ScriptsContainer:
       ScriptsContainer:
         ScriptAssets:
@@ -1173,12 +1173,12 @@ Entities:
       Friction Combine Mode: 0
       Bounce Combine Mode: 0
 Systems:
-  - System: 10507411060376272809
-  - System: 4340022513561837824
-  - System: 4286742986091037320
-  - System: 12364856122512646631
-  - System: 15540854225115538474
-  - System: 14623761520668869565
-  - System: 15747099389357838684
   - System: 14423811924242574018
   - System: 7522258865418468204
+  - System: 15540854225115538474
+  - System: 4286742986091037320
+  - System: 10507411060376272809
+  - System: 15747099389357838684
+  - System: 14623761520668869565
+  - System: 12364856122512646631
+  - System: 4340022513561837824
