@@ -4,35 +4,9 @@ Entities:
   - Entity: 5460401966510546738
     Tag: TNTCollectable
     Transform:
-      Position: [-87.4875259, 4.53343105, -182.666168]
-      Rotation: [-0, 0, -0]
-      Scale: [1, 1, 1]
-    Rigidbody:
-      Layer: 0
-      Rigidbody Type: 1
-      Is Kinematic Enabled: false
-      Is Gravity Enabled: false
-      Mass: 1
-      Center Of Mass: [0, 0, 0]
-      Inertia Tensor: [1, 1, 1]
-      Linear Damping: 0
-      Angular Damping: 0
-      Is Pos Axis X Locked: false
-      Is Pos Axis Y Locked: false
-      Is Pos Axis Z Locked: false
-      Is Rot Axis X Locked: false
-      Is Rot Axis Y Locked: false
-      Is Rot Axis Z Locked: false
-      Is Trigger Enabled: true
-      Collider Type: 0
-      Sphere Radius: 0.649999976
-      Offset Position: [0, 0, 0]
-      Offset Rotation: [0, 0, 0]
-      Dynamic Friction: 0.600000024
-      Static Friction: 0.600000024
-      Bounciness: 0.100000001
-      Friction Combine Mode: 0
-      Bounce Combine Mode: 0
+      Position: [-22.7168427, 4.50006866, -50.5059013]
+      Rotation: [-0, 0, 0]
+      Scale: [0.999998868, 1, 0.999998868]
     ScriptsContainer:
       ScriptsContainer:
         ScriptAssets:
@@ -43,7 +17,7 @@ Entities:
     Transform:
       Position: [0, 0.116046429, 0]
       Rotation: [-0, 0, 0]
-      Scale: [0.00499999989, 0.00499999989, 0.00499999989]
+      Scale: [0.00999999512, 0.00999999978, 0.00999999512]
     Point Light:
       Color: [0.042372942, 1, 0, 1]
       Range: 7.4000001

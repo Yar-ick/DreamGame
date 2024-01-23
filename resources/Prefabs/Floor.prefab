@@ -3,12 +3,13 @@ RootEntity: 7840376918062693499
 Entities:
   - Entity: 7840376918062693499
     Tag: Floor
-    Parent: 8915648544011612886
+    Parent: 14671397981748220255
     Transform:
-      Position: [-45.2341766, 27.6608963, -409.893005]
-      Rotation: [0, -0.141089618, 0]
+      Position: [-89.9017639, 28.401186, -418.645477]
+      Rotation: [0, -0.0923295543, 0]
       Scale: [1, 1, 1]
     Rigidbody:
+      Layer: 0
       Rigidbody Type: 0
       Is Kinematic Enabled: false
       Is Gravity Enabled: true
@@ -25,7 +26,7 @@ Entities:
       Is Rot Axis Z Locked: false
       Is Trigger Enabled: false
       Collider Type: 2
-      Box Half Extends: [77.0999985, 0.5, 17.2999992]
+      Box Half Extends: [21.2000008, 0.5, 17.2999992]
       Offset Position: [0, 0, 0]
       Offset Rotation: [0, 0, 0]
       Dynamic Friction: 0.5

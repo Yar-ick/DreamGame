@@ -1,6 +1,8 @@
 ProjectileLifeSystem = {
 	update = function(deltaTime)
 		local projectileView = Registry.get_entities(Transform, ScriptsContainer)
+		local playerView = Registry.get_entities(Transform, CharacterController, ScriptsContainer)
+		local destroyedEntity = false
 
 		projectileView:for_each(
 			function(entity)
@@ -38,8 +40,9 @@ ProjectileLifeSystem = {
 
 							local entityToRemoveLocation = entityToRemove:get_component(Transform):getWorldPosition()
 
-							if Math.distance(entityLocation, entityToRemoveLocation) <= 10 then
+							if Math.distance(entityLocation, entityToRemoveLocation) - entityToRemove:get_component(Rigidbody):getCapsuleRadius() <= 10 then
 								scene:destroyEntity(entityToRemove)
+								destroyedEntity = true
 							end
 						end
 					)
@@ -47,6 +50,33 @@ ProjectileLifeSystem = {
                     scene:destroyEntity(entity)
 				end
 
+			end
+		)
+
+		playerView:for_each(
+			function (playerEntity)
+				local scriptsContainer = playerEntity:get_component(ScriptsContainer)
+
+				if scriptsContainer.Player == nil then
+					return
+				end
+
+				if destroyedEntity == true then
+					scriptsContainer.Player.hasDynamite = false
+					local dynamiteView = Registry.get_entities(Transform, ScriptsContainer)
+
+					dynamiteView:for_each(
+						function (dynamiteEntity)
+							if dynamiteEntity:name() ~= "Weapon" then
+								return
+							end
+
+							print("Hide dynamite for player camera")
+							dynamiteEntity:get_component(Transform):setLocalPosition(Vector3(0.0, -1.542, 0.340))
+							dynamiteEntity:get_component(Transform):setLocalRotation(0.0, 0.0, 0.0)
+						end
+					)
+				end
 			end
 		)
 	end

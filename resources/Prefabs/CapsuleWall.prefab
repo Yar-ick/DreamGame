@@ -1,0 +1,37 @@
+Prefab: CapsuleWall
+RootEntity: 14518795041531651811
+Entities:
+  - Entity: 14518795041531651811
+    Tag: CapsuleWall
+    Parent: 17556362366021832929
+    Transform:
+      Position: [19.9139214, 33.4950829, -364.741882]
+      Rotation: [-8.94069672e-08, 1.51658154, 0.25065735]
+      Scale: [1.00000107, 0.99999994, 1.00000012]
+    Rigidbody:
+      Layer: 1
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 1
+      Capsule Radius: 10.3000002
+      Capsule Half Height: 10.8000002
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0

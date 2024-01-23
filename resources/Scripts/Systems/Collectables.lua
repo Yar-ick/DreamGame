@@ -53,13 +53,13 @@ Collectables = {
 										return
 									end
 
-									print("Set dynamite visuals for player camera")
-
+									print("Show dynamite for player camera")
 									playerDynamiteEntity:get_component(Transform):setLocalPosition(Vector3(0.4, -0.568, -1.491))
-									print("Set dynamite position for player camera")
 									playerDynamiteEntity:get_component(Transform):setLocalRotation(0.0, 0.0, 0.0)
 								end
 							)
+
+							Audio.playOneShot("DynamitePickup", playerEntity)
 
 							-- Destroy collectable
 							scene:destroyEntity(collectableEntity)

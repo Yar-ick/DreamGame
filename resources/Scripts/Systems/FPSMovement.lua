@@ -67,7 +67,7 @@ FPSMovement = {
 				end
 
 
-                if Input.isKeyDown(KeyCode.Space) then
+                if Input.isKeyPressed(KeyCode.Space) then
 					playerController:jump(10.0, deltaTime)
 				end
 
