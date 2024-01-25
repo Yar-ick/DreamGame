@@ -27,7 +27,7 @@ Collectables = {
 				elseif collectableLocalPosition.y < 2.5 then
 					scriptsContainer.CollectableTNT.animationUpDirection = true
 				end
-				
+				-- Collectable floating animation end
 
 
 				collectablesView:for_each(
@@ -45,10 +45,6 @@ Collectables = {
 							-- Set dynamite visuals for player camera
 							collectablesView:for_each(
 								function(playerDynamiteEntity)
-									-- if playerDynamiteEntity:get_component(ScriptsContainer).PlayerDynamite == nil then
-									-- 	print("Entity \"", playerDynamiteEntity:name(), "\" has no PlayerDynamiteComponent")
-									-- 	return
-									-- end
 									if playerDynamiteEntity:name() ~= "Weapon" then
 										return
 									end

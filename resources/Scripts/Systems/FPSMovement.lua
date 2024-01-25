@@ -1,5 +1,5 @@
-local walkSpeed = 1.5
-local sprintSpeed = 5
+local walkSpeed = 5
+local sprintSpeed = 10
 local movementMultiplier = 0.25
 local gravityMultiplier = 0.08
 local stepSoundFrequency = 0.5

@@ -1,0 +1,46 @@
+Prefab: DestroyableRock5
+RootEntity: 4517169081722593445
+Entities:
+  - Entity: 4517169081722593445
+    Tag: DestroyableRock5
+    Parent: 5567181588565508096
+    Transform:
+      Position: [255.261993, 44.9665146, -460.020233]
+      Rotation: [0, -0.165009394, 0]
+      Scale: [0.147999838, 0.148000002, 0.147999838]
+    Rigidbody:
+      Layer: 1
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 1
+      Capsule Radius: 45
+      Capsule Half Height: 25.1000004
+      Offset Position: [0, 3, 0]
+      Offset Rotation: [0, 0, 90]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0
+    MeshRenderer:
+      Mesh: 13830450553539138925
+      Material: 8364088192342206729
+      Cast Shadow: true
+      Enabled: true
+    ScriptsContainer:
+      ScriptsContainer:
+        ScriptAssets:
+          - ScriptAssetUUID: 16726467849212551633

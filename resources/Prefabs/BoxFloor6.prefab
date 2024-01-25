@@ -1,0 +1,36 @@
+Prefab: BoxFloor6
+RootEntity: 14168231837810599256
+Entities:
+  - Entity: 14168231837810599256
+    Tag: BoxFloor6
+    Parent: 17974777657108596596
+    Transform:
+      Position: [306.460144, 45.3640442, -489.090027]
+      Rotation: [1.50771284, 0.0305054355, -1.22639871]
+      Scale: [0.999999404, 1.00000262, 0.999997437]
+    Rigidbody:
+      Layer: 1
+      Rigidbody Type: 0
+      Is Kinematic Enabled: false
+      Is Gravity Enabled: true
+      Mass: 1
+      Center Of Mass: [0, 0, 0]
+      Inertia Tensor: [1, 1, 1]
+      Linear Damping: 0
+      Angular Damping: 0.0500000007
+      Is Pos Axis X Locked: false
+      Is Pos Axis Y Locked: false
+      Is Pos Axis Z Locked: false
+      Is Rot Axis X Locked: false
+      Is Rot Axis Y Locked: false
+      Is Rot Axis Z Locked: false
+      Is Trigger Enabled: false
+      Collider Type: 2
+      Box Half Extends: [13.5, 13.1000004, 0.5]
+      Offset Position: [0, 0, 0]
+      Offset Rotation: [0, 0, 0]
+      Dynamic Friction: 0.5
+      Static Friction: 0.5
+      Bounciness: 0.600000024
+      Friction Combine Mode: 0
+      Bounce Combine Mode: 0

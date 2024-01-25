@@ -1,7 +1,7 @@
 Prefab: Player
-RootEntity: 13776055780130502424
+RootEntity: 7685666386783279977
 Entities:
-  - Entity: 13776055780130502424
+  - Entity: 7685666386783279977
     Tag: Player
     Transform:
       Position: [6.10351562e-05, 6.17268944, -7.25501537]
@@ -23,9 +23,14 @@ Entities:
       Bounciness: 0
       Friction Combine Mode: 0
       Bounce Combine Mode: 0
-  - Entity: 15777062280664009976
+    Audio Source:
+      AudioBank: 1980000412358775666
+      AudioEventName: BackgroundMusic
+      PlayOnInit: true
+      IsOneShot: false
+  - Entity: 4924956513305229971
     Tag: Head
-    Parent: 13776055780130502424
+    Parent: 7685666386783279977
     Transform:
       Position: [0, 3.77412462, -0.347376943]
       Rotation: [-0, 0, 0]
@@ -48,9 +53,9 @@ Entities:
       FixedAspectRatio: false
     AudioListener:
       {}
-  - Entity: 10740357347768846524
+  - Entity: 16771661017129708118
     Tag: Weapon
-    Parent: 15777062280664009976
+    Parent: 4924956513305229971
     Transform:
       Position: [0, -1.54227829, 0.339908123]
       Rotation: [-0, 0, 0]
@@ -59,6 +64,7 @@ Entities:
       Mesh: 11648913869256549051
       Material: 9843459032645421688
       Cast Shadow: true
+      Enabled: true
     ScriptsContainer:
       ScriptsContainer:
         ScriptAssets:
